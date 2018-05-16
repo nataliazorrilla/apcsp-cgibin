@@ -7,4 +7,3 @@ echo "<h1 align="center">RPI Status Checker</h1>"
 
 echo "<pre>$(./rpistatus)</pre>"
 
-//test
