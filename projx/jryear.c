@@ -50,6 +50,11 @@ poemf= fopen("poem.txt", "wt");
 fprintf(poemf, "%s\n\n", poem);
 fclose(poemf);
 
+FILE *promposalf;
+promposalf= fopen("promposal.txt", "wt");
+fprintf(promposalf, "%s\n\n", promposal);
+fclose(promposalf);
+
 FILE *scoref;
 scoref= fopen("score.txt", "wt");
 fprintf(scoref, "%d\n\n", score);
