@@ -12,14 +12,66 @@
 
     <h1 align="center">Junior Year: Your Yearbook</h1>
 	<p>Ah, memories. What did you do this year? Let's see if you actually answered my questions genuinely.</p>
-	
+
+	<h2> Your Name: </h2>	
 	<?php
-		$file = "yearbook.txt";
+		$file = "name.txt";
 		if(file_exists($file))
 		{
 			echo file_get_contents($file);
 		}
 	 ?>
+	<br>
+
+        <h2> Your Main Extracurricular: </h2>   
+        <?php
+                $file = "ec.txt";
+                if(file_exists($file))
+                {
+                        echo file_get_contents($file);
+                }
+         ?>
+	<br>
+
+        <h2> Your Date Location: </h2>   
+        <?php
+                $file = "date.txt";
+                if(file_exists($file))
+                {
+                        echo file_get_contents($file);
+                }
+         ?>
+        <br>
+
+        <h2> Your Secret Santa Gift: </h2>   
+        <?php
+                $file = "gift.txt";
+                if(file_exists($file))
+                {
+                        echo file_get_contents($file);
+                }
+         ?>
+        <br>
+
+        <h2> Your Poem: </h2>   
+        <?php
+                $file = "poem.txt";
+                if(file_exists($file))
+                {
+                        echo file_get_contents($file);
+                }
+         ?>
+        <br>
+
+        <h2> Your AP Score: </h2>   
+        <?php
+                $file = "score.txt";
+                if(file_exists($file))
+                {
+                        echo file_get_contents($file);
+                }
+         ?>
+        <br>
     
   </body>
 </html>

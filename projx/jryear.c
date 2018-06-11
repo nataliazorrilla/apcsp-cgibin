@@ -25,14 +25,34 @@ int main()
 	may();
 	june();
 
-FILE *file;
-file= fopen("yearbook.txt", "wt");
-fprintf(file, "Your Name: %s\n\n", name);
-fprintf(file, "Your Main Extracurricular: %s\n\n", ec);
-fprintf(file, "Your Date Location: %s\n\n", date);
-fprintf(file, "Your Secret Santa Gift: %s\n\n", gift);
-fprintf(file, "Your Poem: %s\n\n", poem);
-fprintf(file, "Your AP Score: %d\n\n", score);
-fprintf(file, "Your Promposal: %s\n\n", promposal);
-fclose(file);
+FILE *namef;
+namef= fopen("name.txt", "wt");
+fprintf(namef, "%s\n\n", name);
+fclose(namef);
+
+FILE *ecf;
+ecf= fopen("ec.txt", "wt");
+fprintf(ecf, "%s\n\n", ec);
+fclose(ecf);
+
+FILE *datef;
+datef= fopen("date.txt", "wt");
+fprintf(datef, "%s\n\n", date);
+fclose(datef);
+
+FILE *giftf;
+giftf= fopen("gift.txt", "wt");
+fprintf(giftf, "%s\n\n", gift);
+fclose(giftf);
+
+FILE *poemf;
+poemf= fopen("poem.txt", "wt");
+fprintf(poemf, "%s\n\n", poem);
+fclose(poemf);
+
+FILE *scoref;
+scoref= fopen("score.txt", "wt");
+fprintf(scoref, "%d\n\n", score);
+fclose(scoref);
+
 }
