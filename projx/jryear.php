@@ -63,6 +63,16 @@
          ?>
         <br>
 
+        <h2> Your Promposal: </h2>   
+        <?php
+                $file = "promposal.txt";
+                if(file_exists($file))
+                {
+                        echo file_get_contents($file);
+                }
+         ?>
+        <br>
+
         <h2> Your AP Score: </h2>   
         <?php
                 $file = "score.txt";

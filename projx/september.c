@@ -5,7 +5,7 @@ char name[256];
 void september()
 {
 	printf("SEPTEMBER\n\n");
-	printf("''We know that in September, we will wander through the warm winds of summer's wreckage. We will welcome summer's ghost.'' -Heny Rollins\n\n");
+	printf("''We know that in September, we will wander through the warm winds of summer's wreckage. We will welcome summer's ghost.'' -Henry Rollins\n\n");
 	printf("Wow, you don’t have much homework, but you do have four brand new syllabi that need signing.\n\n");
 
 	char input[256];

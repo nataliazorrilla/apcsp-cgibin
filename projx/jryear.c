@@ -10,19 +10,30 @@
 #include "april.h"
 #include "may.h"
 #include "june.h"
-
+#include "break.h"
 int main()
 {
+	printf("\x1b[2J");
 	intro();
+	mbreak();
 	september();
+	mbreak();
 	october();
+	mbreak();
 	november();
+	mbreak();
 	december();
+	mbreak();
 	january();
+	mbreak();
 	february();
+	mbreak();
 	march();
+	mbreak();
 	april();
+	mbreak();
 	may();
+	mbreak();
 	june();
 
 FILE *namef;
