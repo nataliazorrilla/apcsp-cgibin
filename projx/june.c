@@ -23,6 +23,6 @@ void june()
 	}
 
 	printf("JUNE STATS\n");
-	printf("2 sunburns gotten.  7 class projects completed. 4 cups of Panera’s Summer Corn Chowder eaten. 0 months left! Check out your yearbook at xxx URL.\n\n ---- \n\n");
+	printf("2 sunburns gotten.  7 class projects completed. 4 cups of Panera’s Summer Corn Chowder eaten. 0 months left! Check out your yearbook at rpi16/cgi-bin/student4/projx/jryear.php.\n\n ---- \n\n");
 }
 
