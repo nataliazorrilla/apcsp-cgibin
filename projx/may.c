@@ -20,7 +20,7 @@ void printcheckAP(struct AP* ap)
 	char youranswer;
 	fgets(input, 500, stdin);
 	sscanf(input, "%c", &youranswer);
-	if (ap->correct == youranswer) && (score != 5)
+	if (ap->correct == youranswer && score != 5)
 	{
 		score = score + 1;
 	}
